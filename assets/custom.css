@@ -1,0 +1,4 @@
+/* Hide project name at top of sidebar */
+.tsd-navigation > a {
+  display: none !important;
+}
