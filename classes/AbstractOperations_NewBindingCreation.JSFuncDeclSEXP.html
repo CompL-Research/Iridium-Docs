@@ -161,7 +161,12 @@ The hoisting pass moves this declaration to the top of the scope to achieve this
 In most cases this will be reduced down to an EnvWrite.
 A special node is only needed in case of top level sloppy declarations.</p>
 <h4 id="resolutions" class="tsd-anchor-link">Resolutions<a href="#resolutions" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><ul>
-<li><a href="Environment_PrimitiveEnvOps.EnvWriteSEXP.html" class="tsd-kind-class">EnvWriteSEXP</a>: A binding found in the immediate enclosing closure scope.</li>
+<li>
+<p><a href="Environment_PrimitiveEnvOps.EnvWriteSEXP.html" class="tsd-kind-class">EnvWriteSEXP</a>: A binding found in the immediate enclosing closure scope.</p>
+</li>
+<li>
+<p><a href="#" class="tsd-kind-class">JSFuncDeclSEXP</a>: It is possible that node does not change its form; this happens for top-level declarations in sloppy mode code.</p>
+</li>
 </ul>
 <h4 id="structure" class="tsd-anchor-link">Structure<a href="#structure" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><ul>
 <li>
